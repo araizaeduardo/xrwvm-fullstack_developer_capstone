@@ -124,3 +124,13 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+
+.contact_info h1 {
+  font-size: 20px;
+  font-weight: bold;
+  color: skyblue;
+}
+.contact_info h4 {
+  font-size: 20px;
+  color: skyblue;
+}

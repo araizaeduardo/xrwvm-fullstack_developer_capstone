@@ -19,6 +19,7 @@ from .models import CarMake, CarModel
 from .restapis import get_request, analyze_review_sentiments, post_review
 
 
+
 # Get an instance of a logger
 logger = logging.getLogger(__name__)
 
@@ -121,7 +122,7 @@ def get_dealer_reviews(request, dealer_id):
 # def get_dealer_details(request, dealer_id):
 def get_dealer_details(request, dealer_id):
     if(dealer_id):
-        endpoint = "/fetchDealer"+str(dealer_id)
+        endpoint = "/fetchDealer/"+str(dealer_id)
         dealership = get_request(endpoint)
         return JsonResponse({"status":200,"dealer":dealership})
     else:

@@ -1,6 +1,6 @@
 # coding-project-template
 
-Because IBM Code Engine fails so many times, I installed locally docker, python3, pip and nodejs
+### Because IBM Code Engine fails so many times, I installed locally docker, python3, pip and nodejs
 
 This is done under Linux mint 21.1 Cinnamon, Kernel 5.15.0-91-generic, based on Ubuntu 22.04
 
@@ -15,7 +15,19 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docke
 
 sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
-# Installing Python 3.10
+# Installing Python 3.10 and pip
 
-``` sudo apt-get install python3.6 ```
+```
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt update 
+sudo apt install python3.10
+sudo apt install python3-pip
+```
+
+# Installing NodeJs
+
+```
+sudo apt-get install curl python-software-properties software-properties-common 
+curl -sL https://deb.nodesource.com/setup_21.x | sudo bash - 
+```
 

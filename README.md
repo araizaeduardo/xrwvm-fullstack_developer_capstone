@@ -17,5 +17,5 @@ sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin dock
 
 # Installing Python 3.10
 
-$ sudo apt-get install python3.6
+``` sudo apt-get install python3.6 ```
 

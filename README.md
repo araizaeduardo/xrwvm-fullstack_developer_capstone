@@ -4,7 +4,7 @@ Because IBM Code Engine fails so many times, I installed locally docker, python3
 
 This is done under Linux mint 21.1 Cinnamon, Kernel 5.15.0-91-generic, based on Ubuntu 22.04
 
-#installing Docker
+# installing Docker
 sudo apt update
 sudo apt install apt-transport-https ca-certificates curl gnupg
 
